@@ -1,5 +1,7 @@
 <?php 
 session_start();
+if(isset($_SESSION["apelido"])){
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -13,3 +15,9 @@ session_start();
 <h1>Página de Perfil <?php echo $_SESSION['apelido'];?></h1>
 </body>
 </html>
+<?php
+
+}else{
+  header('Location: login.php');
+}
+?>

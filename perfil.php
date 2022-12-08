@@ -1,3 +1,6 @@
+<?php 
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +10,6 @@
   <title>Document</title>
 </head>
 <body>
-  <h1>Página de Perfil</h1>
+<h1>Página de Perfil <?php echo $_SESSION['apelido'];?></h1>
 </body>
 </html>

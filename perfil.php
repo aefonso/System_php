@@ -12,7 +12,8 @@ if(isset($_SESSION["apelido"])){
   <title>Document</title>
 </head>
 <body>
-<h1>Página de Perfil <?php echo $_SESSION['apelido'];?></h1>
+  <h1>Página de Perfil <?php echo $_SESSION['apelido'];?></h1>
+  <p><a href="desconectar.php">Logout</a></p>
 </body>
 </html>
 <?php

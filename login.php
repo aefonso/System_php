@@ -8,5 +8,10 @@
 </head>
 <body>
   <h1>Página de Login</h1>
+  <form action="autenticacao.php" method="post">
+  <p><label>Usuário: <input type="text" name="usuario"></label></p>
+  <p><label>Senha: <input type="password" name="senha"></label></p>
+  <p><input type="submit" value="Autenticar"></p>
+  </form>
 </body>
 </html>

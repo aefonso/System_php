@@ -14,6 +14,7 @@ if(isset($_SESSION["apelido"])){
 <body>
   <h1>Página de Perfil</h1>
   <h4>Seja bem-vindo <?php echo $_SESSION['apelido'];?></h4>
+  <p><a href="Cruds/categorias.php">Categorias</a></p>
   <p><a href="desconectar.php">Logout</a></p>
 </body>
 </html>
